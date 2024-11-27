@@ -1,0 +1,81 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FAQ from "../components/FAQ.astro";
+---
+
+<Layout title="Travel Unbound">
+  <main>
+    <section class="bg-black text-white relative">
+      <div class="padding-global">
+        <div
+          class="h-screen relative grid grid-cols-1 md:grid-cols-[1fr_auto] content-end items-end gap-6 py-6 z-50"
+        >
+          <h1 class="heading-h1">
+            enriching experiences for the modern traveller.
+          </h1>
+          <div class="flex gap-4">
+            <a href="" class="button is-outline">Enquire</a>
+            <a href="" class="button">Learn more</a>
+          </div>
+        </div>
+      </div>
+      <img
+        src="/images/hero-header.png"
+        alt=""
+        class="absolute w-full h-full top-0 opacity-30 object-cover"
+      />
+    </section>
+    <section class="bg-white">
+      <div class="padding-global">
+        <p class="max-w-md text-lg py-6">
+          tailor-made luxury travel, crafted to match your lifestyle, perfectly
+          attuned to your tastes and needs.
+        </p>
+        <div class="grid gap-8 py-28">
+          <div class="max-w-3xl m-auto">
+            <h2 class="heading-h1">introducing travel/unbound</h2>
+          </div>
+          <div class="grid gap-8 max-w-3xl m-auto">
+            <h3 class="heading-h3">
+              a fresh take on luxury travel, unlocking a world of remarkable and
+              memorable journeys.
+            </h3>
+            <p class="text-lg">
+              with over 40 years of industry experience, we combine connections,
+              insight, and creativity to redefine travel design with a personal
+              and modern touch.
+            </p>
+            <p class="text-lg">
+              we invite you to rediscover the joys and meaning of travel, free
+              from the anxiety and hassle that often accompany it.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <FAQ
+        title="individual/bespoke"
+        content="Every traveller is different, and true luxury is individual. Our collaborative and personal approach ensures that your travel experience is always uniquely crafted to your specific tastes, needs, constraints and wants."
+      />
+      <FAQ
+        title="insider/insight"
+        content="Every traveller is different, and true luxury is individual. Our collaborative and personal approach ensures that your travel experience is always uniquely crafted to your specific tastes, needs, constraints and wants."
+      />
+      <FAQ
+        title="exclusive/access"
+        content="Every traveller is different, and true luxury is individual. Our collaborative and personal approach ensures that your travel experience is always uniquely crafted to your specific tastes, needs, constraints and wants."
+      />
+
+      <FAQ
+        title="seamless/journeys"
+        content="Every traveller is different, and true luxury is individual. Our collaborative and personal approach ensures that your travel experience is always uniquely crafted to your specific tastes, needs, constraints and wants."
+      />
+
+      <FAQ
+        title="responsible/tourism"
+        content="Every traveller is different, and true luxury is individual. Our collaborative and personal approach ensures that your travel experience is always uniquely crafted to your specific tastes, needs, constraints and wants."
+      />
+    </section>
+  </main>
+</Layout>
